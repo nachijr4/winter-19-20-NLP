@@ -95,8 +95,71 @@ frequency = FreqDist(inaugural.words(fileids = '2009-Obama.txt'))
 frequency.most_common(10)
 
 
-# In[ ]:
+# In[2]:
 
 
+from nltk.corpus import webtext
 
+
+# In[3]:
+
+
+webtext.fileids()
+
+
+# In[4]:
+
+
+print(webtext.words(fileids = 'pirates.txt'))
+
+
+# In[5]:
+
+
+for file in webtext.fileids():
+    print(file, webtext.words(fileids = file)[:20])
+
+
+# In[11]:
+
+
+import nltk
+
+
+# In[17]:
+
+
+file = open('MASC-3.0.0\\data\\written\\twitter\\tweets1.txt', 'r')
+text = file.read()
+text1 = text.split()
+text2 = nltk.Text(text1)
+text2.concordance("good")
+
+
+# In[18]:
+
+
+import requests
+
+
+# In[35]:
+
+
+url = "http://www.gutenberg.org/files/2554/2554-0.txt"
+document = requests.get(url)
+a = document
+
+
+# In[36]:
+
+
+document = a
+
+
+# In[37]:
+
+
+document.encoding = 'utf-8'
+document = document.text
+print(document)
 
