@@ -2,3 +2,4 @@ Corpus/MASC-3.0.0
 .vscode
 .ipynb_checkpoints
 *.ipynb
+*.txt
