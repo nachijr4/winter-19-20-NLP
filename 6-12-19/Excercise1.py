@@ -1,6 +1,6 @@
 text = "Shakespeare gave the best theatrics in english"
 print(text)
-
+# testing multi line strings
 text = '''William Shakespeare (bapt. 26 April 1564 – 23 April 1616)
  was an English poet, playwright, and actor, 
  widely regarded as the greatest writer in the English 
@@ -12,7 +12,7 @@ text = '''William Shakespeare (bapt. 26 April 1564 – 23 April 1616)
   more often than those of any other playwright'''
 
 print(text)
-
+# checking unicode encoding in python
 text = '''भारत के पहले प्रधानमंत्री रहे पंडित जवाहरलाल नेहरू का जन्म 14 
   नवंबर 1889 इलाहाबाद में हुआ था। उनका जन्मदिन 
   बाल दिवस के रूप में मनाया जाता है। उनके पिता का नाम मोतीलाल नेहरू था, 

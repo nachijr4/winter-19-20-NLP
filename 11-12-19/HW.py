@@ -1,5 +1,5 @@
 import jieba
-
+# using jieba to segment chinese language
 chinese_text = '''仍然沉迷于长达数小时的远景，
 穿越玫瑰照亮的积云，房屋和谷仓，
 如雪谷中深处的斑点，看上去像十二月的所有滚动国家—棕色和黑色的山丘上散布着雪，
